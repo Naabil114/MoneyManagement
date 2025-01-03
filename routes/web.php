@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Livewire\HelloWorld;
+use App\Livewire\Home;
+use App\Livewire\Log;
+use App\Livewire\Wallet;
+use App\Livewire\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +18,7 @@ use App\Livewire\HelloWorld;
 |
 */
 
-Route::get('/', HelloWorld::class);
+Route::get('/', Home::class);
+Route::get('/log', Log::class);
+Route::get('/wallet', Wallet::class);
+Route::get('/user', User::class);
