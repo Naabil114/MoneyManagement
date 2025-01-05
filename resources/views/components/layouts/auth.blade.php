@@ -8,7 +8,6 @@
     </head>
     <body class="bg-slate-200">
         {{ $slot }}
-        <livewire:components.buttom-menu/>
-        <livewire:components.auth/>
+        <livewire:components.Auth/>
     </body>
 </html>
