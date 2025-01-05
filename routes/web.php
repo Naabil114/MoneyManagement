@@ -22,3 +22,7 @@ Route::get('/', Home::class);
 Route::get('/log', Log::class);
 Route::get('/wallet', Wallet::class);
 Route::get('/user', User::class);
+
+
+Route::get('/login', App\Livewire\Login::class);
+Route::get('/signup', App\Livewire\SignUp::class);
